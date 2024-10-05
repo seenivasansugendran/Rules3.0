@@ -18,10 +18,10 @@ namespace rules3._0.Controllers
             _logger = logger;
         }
 
-        [HttpGet("GetSumOfNumber")]
-        public int AddTwoNumber(int a, int b)
+        [HttpGet("GetSubtractOfNumber")]
+        public int SubTwoNumber(int a, int b)
         {
-            int sum = a + b;
+            int sum = a - b;
             return sum;
         
         }
