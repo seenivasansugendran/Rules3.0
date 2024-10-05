@@ -19,9 +19,9 @@ namespace rules3._0.Controllers
         }
 
         [HttpGet("GetSubtractOfNumber")]
-        public int SubTwoNumber(int a, int b)
+        public int MultipleTwoNumber(int a, int b)
         {
-            int sum = a - b;
+            int sum = a * b;
             return sum;
         
         }
